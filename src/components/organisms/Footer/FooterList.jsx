@@ -1,5 +1,5 @@
 import React from "react";
-import ListItems from "../../atoms/Global/ListItem";
+import ListItems from "../../atom/Global/ListItem";
 
 const FooterList = ({ listtitle, listprops }) => {
   return (
