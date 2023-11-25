@@ -1,6 +1,6 @@
 import React from "react";
 import { RouterProvider } from "react-router-dom";
-import router from "./routers";
+import { router } from "./routers";
 import HomePage from "./pages/home";
 import Poco from "./pages/poco";
 import Footer from "./components/organisms/Footer";
