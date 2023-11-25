@@ -9,7 +9,9 @@ import SmartPhone from "./pages/smartphone";
 function App() {
   return (
     <>
+      <Header />
       <RouterProvider router={router} />
+      <Footer />
     </>
   );
 }
