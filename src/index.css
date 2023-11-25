@@ -1,5 +1,5 @@
-@import "/theme.css"; /*color variariables for dynamic theme*/
-@import "/micon.css"; /*Xiaomi icons font*/
+/* @import "/theme.css"; color variariables for dynamic theme */
+/* @import "/micon.css"; Xiaomi icons font */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
