@@ -6,7 +6,7 @@ function Poco() {
   return (
     <>
       <NavbarProducts
-        toTitle1="/poco"
+        toTitle1="/smartphone"
         toTitle2="/xiaomi"
         toTitle3="/redmi"
         titleHead="POCO Phones"
