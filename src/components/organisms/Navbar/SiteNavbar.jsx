@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Icon from "../../atoms/Icon";
-import Logo from "../../atoms/Logo";
-import List from "../../atoms/Global/List";
-import SearchButton from "../../molecule/Search/SearchButton";
-import ThemeSwitch from "../../molecule/ThemeSwitch";
+import Icon from "../../atom/Icon";
+import Logo from "../../atom/Logo";
+import List from "../../atom/Global/List";
+import SearchButton from "../../molecules/Search/SearchButton";
+// import ThemeSwitch from "../../molecules/ThemeSwitch";
 
 const SiteNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,7 +50,7 @@ const SiteNavbar = () => {
         <div className="only-medium flex items-center">
           <Icon redirect="/account" classname="account" />
         </div>
-        <ThemeSwitch />
+        {/* <ThemeSwitch /> */}
 
         {/* Toggle button for the menu */}
         <button
